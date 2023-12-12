@@ -6,6 +6,41 @@
 *{
   @apply p-0 m-0 box-border;
 }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ff4d30 #ffffff;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  @apply bg-darkorange-200
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  @apply bg-darkorange-200
+}
+
+*::-webkit-scrollbar-thumb:active {
+  @apply bg-darkorange-100
+}
 
 @layer components {
   .nav-links{

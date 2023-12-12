@@ -56,6 +56,7 @@ const Main = () => {
       </div>
       <div className="absolute top-[99px] left-[0px] w-[1920px] h-[1230px] overflow-hidden" />
     </header>
+    
     <section className="absolute top-[145px] left-[121px] w-[1920px] h-[1161px] overflow-hidden text-left text-[90px] text-black font-work-sans">
       <img
         className="absolute top-[615px] left-[150px] rounded-xl w-[284px] h-[299px] object-cover"
@@ -283,6 +284,8 @@ const Main = () => {
         </div>
       </div>
     </section>
+
+
     <div className="absolute top-[3745px] left-[0px] w-[1960px] h-[1008px] overflow-hidden font-work-sans">
       <img
         className="absolute top-[502px] left-[calc(50%_+_745.4px)] w-20 h-20"
@@ -372,6 +375,8 @@ const Main = () => {
       <div className="absolute top-[674.5px] left-[972.5px] box-border w-[796px] h-px opacity-[0.08] border-t-[1px] border-solid border-black" />
       <div className="absolute top-[1008px] left-[0px] w-[1948px] h-[1344px] overflow-hidden" />
     </div>
+
+
     <div className="absolute top-[4761px] left-[0px] w-[1920px] h-[1336px] overflow-hidden text-51xl text-black">
       <div className="absolute top-[90px] left-[150px] leading-[70px] uppercase font-black font-work-sans inline-block w-[550px]">
         oUR STUNNING PORTFOLIO
@@ -427,6 +432,8 @@ const Main = () => {
         <div className="absolute top-[6px] left-[0px] w-[1920px] h-[470px] overflow-hidden" />
       </div>
     </div>
+
+
     <div className="absolute top-[6111px] left-[0px] w-[1920px] h-[450px] overflow-hidden text-center text-xl text-darkorange-100">
       <img
         className="absolute top-[14px] left-[calc(50%_+_679.2px)] w-[122px] h-[122px]"
