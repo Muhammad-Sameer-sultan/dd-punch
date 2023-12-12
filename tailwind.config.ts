@@ -8,13 +8,46 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        white: "#FFFFFF",
+        darkorange: {
+          "100": "#fb8b24",
+          "200": "#FB8B24",
+        },
+        black: "#000",
+        gainsboro: {
+          "100": "#d9d9d9",
+          "200": "rgba(217, 217, 217, 0.6)",
+        },
+        darkslategray: "#36454f",
+        linen: "#faf0e6",
+      },
+      spacing: {},
+      fontFamily: {
+        poppins: "Poppins",
+        "work-sans": "'Work Sans'",
+      },
+      borderRadius: {
+        "31xl": "50px",
+        xl: "20px",
+        "26xl": "45px",
       },
     },
+    fontSize: {
+      lg: "18px",
+      "3xl": "22px",
+      xl: "20px",
+      "51xl": "70px",
+      "23xl": "42px",
+      "9xl": "28px",
+      "13xl": "32px",
+      "33xl": "52px",
+      base: "16px",
+      "11xl": "30px",
+      inherit: "inherit",
+    },
   },
+
   plugins: [],
 }
 export default config
