@@ -174,6 +174,8 @@ const Main = () => {
       </div>
       <div className="absolute top-[1219px] left-[0px] w-[1920px] h-[1178px] overflow-hidden" />
     </section>
+
+    {/* servixs */}
     <section className="absolute top-[2512px] left-[0px] w-[1920px] h-[1175px] overflow-hidden text-left text-9xl text-black font-work-sans">
       <div className="absolute top-[166px] left-[150px] text-51xl leading-[70px] uppercase font-black inline-block w-[809px]">
         Embrace the Digital Revolution.
