@@ -46,6 +46,18 @@ const config: Config = {
       "11xl": "30px",
       inherit: "inherit",
     },
+    screens:{
+      'xxsm': '375px',
+      'xsm': '420px',
+      'xmd': '500px',
+      'sm':'640px',
+      'md': '768px',
+      'slg': '870px',
+      'lg': '1024px',
+      'xslg': '1100px',
+      'xl':'1280px',
+      'xlg': '1250px'
+    }
   },
 
   plugins: [],

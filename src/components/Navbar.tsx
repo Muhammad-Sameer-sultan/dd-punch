@@ -17,7 +17,7 @@ const Navbar = () => {
     setActiveNav(id);
   };
   return (
-    <nav className='bg-white h-[100px] px-[72px] flex justify-between items-center max-xmd:p-[20px] '>
+    <nav className='bg-white h-[100px] px-[72px] flex justify-between items-center max-xmd:p-[20px] max-slg:hidden'>
       <div>
       <Image className='w-full' src={"footerlogo.svg"} width={0} height={100} alt="logo here"/>
       </div>
@@ -47,8 +47,6 @@ const Navbar = () => {
           src="/frame1.svg"
         />
       </div>
-      {/* <button className='w-[131px] h-[43px] font-bold  rounded-[40px] text-darkorange-200 border-2 border-darkorange-200 '>Login</button>
-      <button className='w-[131px] h-[43px] font-bold  rounded-[40px] text-white  border-2 border-darkorange-200 bg-darkorange-200'>Register</button> */}
       </div>
     </nav>
   )

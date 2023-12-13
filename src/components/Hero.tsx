@@ -4,95 +4,93 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <section className="mt-10    text-black font-work-sans">
+      <section className="my-10 px-20 bg-black max-lg:text-[46px] max-slg:text-[36px] max-md:text-[22px] text-[60px] text-black font-work-sans">
         <div className="flex items-center  justify-center gap-x-4">
           <Image
             width={70}
             height={70}
-            className=" w-[70px] h-[70px]"
             alt=""
             src="/star-3.svg"
           />
-          <h2 className=" text-[60px]  uppercase font-black font-inherit text-center">
+          <h2 className="text-inherit   uppercase font-black font-inherit text-center">
             Embrace the Digital
           </h2>
           <Image
             width={70}
             height={70}
-            className=" w-[70px] h-[70px]"
             alt=""
             src="/star-3.svg"
           />
         </div>
-        <h2 className="mt-[-1rem] text-[60px]     uppercase font-black font-inherit text-center">
+        <h2 className="mt-[-1rem] text-inherit uppercase font-black font-inherit text-center">
           {" "}
           Revolution.
         </h2>
         <div className="mt-8 relative grid place-items-center">
-          <button className="cursor-pointer   capitalize font-semibold font-poppins text-white [border:none] py-4 px-[35px] bg-darkorange-100  rounded-26xl">
+          <button className="cursor-pointer text-[18px]   capitalize font-semibold font-poppins text-white [border:none] py-4 px-[35px] bg-darkorange-100  rounded-26xl">
             get a qoute
           </button>
 
-          <div className=" absolute grid place-items-center gap-y-4 right-14  text-3xl font-poppins">
-            <div className=" relative rounded-[50%] bg-linen w-[90px] h-[90px]" >
-            <img
-              className="absolute top-[22%] left-[38%] w-[22.1px] h-[53px]"
-              alt=""
-              src="/arrow-1.svg"
-            />
+          <div className=" absolute grid place-items-center gap-y-4 right-0 top-0  text-3xl font-poppins">
+            <div className=" relative rounded-[50%] bg-linen w-[90px] h-[90px]">
+              <img
+                className="absolute top-[22%] left-[38%] w-[22.1px] h-[53px]"
+                alt=""
+                src="/arrow-1.svg"
+              />
             </div>
-            <div className=" capitalize font-semibold">
-              scroll down
-            </div>
+            <div className=" capitalize font-semibold">scroll down</div>
           </div>
         </div>
 
-        <section className="grid grid-cols-5  mt-5 gap-5 px-16 items-center">
-          <div className="row-start-1 row-end-2 col-start-1 col-end-2">
-          <h6 className="text-xl font-medium font-poppins text-darkorange-100">
-        DD Punch
-      </h6>
-          <h3 className="m-0 text-9xl leading-[35px] uppercase font-bold font-inherit inline-block w-[299px]">
-        Where Ideas Meet the Digital Frontier.
-      </h3>
-     
-          </div>
+        <section className="grid grid-cols-5  mt-24 gap-3  items-center justify-center">
+          {/* <div className="row-start-1 row-end-2 col-start-1 col-end-2">
+            <h6 className="text-xl font-medium font-poppins text-darkorange-100">
+              DD Punch
+            </h6>
+            <h3 className="m-0 text-9xl leading-[35px] uppercase font-bold font-inherit inline-block w-[299px]">
+              Where Ideas Meet the Digital Frontier.
+            </h3>
+          </div> */}
           <img
-            className="row-start-1 row-end-6 col-start-1 col-end-2 rounded-xl w-[284px] h-[299px] object-cover"
+            className="row-span-2  rounded-xl  object-cover"
             alt=""
             src="/rectangle-7@2x.png"
           />
+
+       
           <img
-            className="col-start-2 col-end-3 row-start-1 row-end-2  rounded-xl w-[284px] h-[299px] object-cover"
+            className="col-start-2 self-end  rounded-xl  object-cover"
             alt=""
             src="/rectangle-13@2x.png"
           />
           <img
-            className="col-start-2 col-end-3 row-start-2 row-end-4 rounded-xl w-[293px] h-[299px] object-cover"
+            className="col-start-2  row-start-2  pb-8 rounded-xl  object-cover"
             alt=""
             src="/rectangle-8@2x.png"
           />
           <img
-            className="col-start-3 col-end-4 row-start-1 row-end-6 rounded-xl w-[293px] h-full object-cover"
+            className="col-start-3 row-span-2  rounded-xl  h-full object-cover"
             alt=""
             src="/rectangle-9@2x.png"
           />
           <img
-            className=" col-start-4 col-end-5 row-start-1 row-end-2 rounded-xl w-[293px] h-[299px] object-cover"
+            className=" col-start-4 pt-8 row-start-1  rounded-xl  object-cover"
             alt=""
             src="/rectangle-10@2x.png"
           />
           <img
-            className=" col-start-4 col-end-5 row-start-2 row-end-3 rounded-xl w-[293px] h-[299px] object-cover"
+            className=" col-start-4 self-start row-start-2  rounded-xl  object-cover"
             alt=""
             src="/rectangle-12@2x.png"
           />
           <img
-            className=" col-start-5 col-end-6 row-start-1 row-end-6 rounded-xl w-[293px] h-[299px] object-cover"
+            className=" col-start-5  row-span-2  rounded-xl  object-cover"
             alt=""
             src="/rectangle-11@2x.png"
           />
         </section>
+         <hr  className="bg-black mt-14" />
         {/* <img
         className="absolute top-[615px] left-[150px] rounded-xl w-[284px] h-[299px] object-cover"
         alt=""
@@ -144,6 +142,7 @@ const Hero = () => {
       
       <div className="absolute top-[1116px] left-[0px] w-[1937px] h-[1322px] overflow-hidden" /> */}
       </section>
+
     </>
   );
 };
