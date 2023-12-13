@@ -130,7 +130,7 @@ const Main = () => {
       </div>
       <div className="absolute top-[1116px] left-[0px] w-[1937px] h-[1322px] overflow-hidden" />
     </section>
-    
+    {/* about */}
     <section className="absolute top-[1304px] left-[0px] w-[1920px] h-[1222px] overflow-hidden text-left text-xl text-black font-poppins">
       <img
         className="absolute top-[220px] left-[calc(50%_+_513.2px)] w-[122px] h-[122px]"

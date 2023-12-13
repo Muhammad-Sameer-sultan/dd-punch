@@ -13,6 +13,7 @@ const config: Config = {
         darkorange: {
           "100": "#fb8b24",
           "200": "#FB8B24",
+          "300": "#fb7a24",
         },
         black: "#000",
         gainsboro: {

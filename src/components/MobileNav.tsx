@@ -21,7 +21,7 @@ const MobileNav = () => {
     { id: "#about-us", label: "about us" },
   ];
   return (
-    <section
+    <nav
       className={`slg:hidden px-[72px] pt-[20px] max-xmd:p-[20px] h-[65px] ${navClassName}  bg-gradient z-[150] `}
     >
       <div className="flex justify-between items-center">
@@ -90,7 +90,7 @@ const MobileNav = () => {
           </div>
         </div>
       </div>
-    </section>
+    </nav>
   );
 };
 
