@@ -288,6 +288,7 @@ const Main = () => {
       </div>
     </section>
 
+{/* Pricing */}
 
     <div className="absolute top-[3745px] left-[0px] w-[1960px] h-[1008px] overflow-hidden font-work-sans">
       <img

@@ -4,7 +4,10 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <section id="#" className="my-10 max-sm:px-4 px-20 max-lg:text-[46px] max-slg:text-[36px] max-md:text-[22px] text-[60px] text-black font-work-sans">
+      <section
+        id="#"
+        className="my-10 max-sm:px-4 px-20 max-lg:text-[46px] max-slg:text-[36px] max-md:text-[22px] text-[60px] text-black font-work-sans"
+      >
         <div className="flex items-center  justify-center gap-x-4">
           <Image
             width={70}
@@ -36,14 +39,16 @@ const Hero = () => {
           <div className=" absolute grid place-items-center max-slg:gap-y-2 gap-y-4 right-0 top-0  text-3xl font-poppins">
             <div className=" relative rounded-[50%] bg-linen  hover:bg-orange-200 hover:cursor-pointer max-xsm:w-[35px] max-xsm:h-[35px] max-slg:w-[60px] max-slg:h-[60px] w-[90px] h-[90px]">
               <Image
-              width={30}
-              height={60}
+                width={30}
+                height={60}
                 className="absolute max-xsm:top-[0] top-[22%] left-[38%] max-xsm:w-[9px] max-xsm:h-[20px] max-slg:w-[15.6px] max-slg:h-[36px] w-[22.1px] h-[53px]"
                 alt=""
                 src="/arrow-1.svg"
               />
             </div>
-            <div className=" capitalize max-slg:text-[14px] max-xsm:text-[10px] font-semibold">scroll down</div>
+            <div className=" capitalize max-slg:text-[14px] max-xsm:text-[10px] font-semibold">
+              scroll down
+            </div>
           </div>
         </div>
 
@@ -62,7 +67,6 @@ const Hero = () => {
             src="/rectangle-7@2x.png"
           />
 
-       
           <img
             className="col-start-2 self-end  rounded-xl  object-cover"
             alt=""
@@ -94,9 +98,8 @@ const Hero = () => {
             src="/rectangle-11@2x.png"
           />
         </section>
-         <hr  className="bg-black mt-14" />
+        <hr className="bg-black mt-14" />
       </section>
-
     </>
   );
 };
