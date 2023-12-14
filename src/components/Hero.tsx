@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
 
         <section className="grid grid-cols-5 max-md:grid-cols-1  mt-24 gap-3 max-w-[1400px] mx-auto  items-center justify-center">
-          <div className="col-start-1  self-start">
+          <div className="col-start-1  ">
             <h6 className="text-xl font-medium font-poppins text-darkorange-100">
               DD Punch
             </h6>
