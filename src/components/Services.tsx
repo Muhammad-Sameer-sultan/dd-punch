@@ -3,7 +3,7 @@ import Image from "next/image";
 const dummy: string = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s `;
 const serviceItems = [
   {
-    img: "/frame1.svg",
+    img: "/frame2.svg",
     title: "logo embroidery digitizing",
     description: dummy,
   },
@@ -24,12 +24,12 @@ const serviceItems = [
   },
   {
     img: "/frame6.svg",
-    title: "color separation",
+    title: "3d puff embroidery digitizingcolor separation",
     description: dummy,
   },
   {
     img: "/frame7.svg",
-    title: "logo embroidery digitizing",
+    title: "color separation",
     description: dummy,
   },
 ];
@@ -59,9 +59,9 @@ const Services = () => {
       <section className="relative grid grid-cols-3 gap-5">
 
 {
-  serviceItems.map(item=><div key={item.title} className="flex flex-col gap-4 rounded-2xl p-5  border-[1px] border-solid border-gainsboro-200">
+  serviceItems.map(item=><div key={item.title} className="flex hover:text-white  flex-col gap-4 hover:bg-darkorange-200 hover:cursor-pointer rounded-2xl p-5  border-[1px] border-solid border-gainsboro-200">
   <div>
-    <div className="border-2 border-darkorange-200 rounded-full inline-block p-5">
+    <div className="border-2 bg-white  border-darkorange-200 rounded-full inline-block p-5">
       <Image
         width={60}
         height={60}
