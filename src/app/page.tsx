@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Check from "@/components/Check";
 import Hero from "@/components/Hero";
 import Porfolio from "@/components/Porfolio";
 import Pricing from "@/components/Pricing";
@@ -11,7 +12,8 @@ export default function Home() {
   <About />
   <Services />
   <Pricing />
-  <Porfolio />
+  {/* <Check/> */}
+  {/* <Porfolio /> */}
   </>
   )
 }

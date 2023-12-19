@@ -52,48 +52,55 @@ const Hero = () => {
           </div>
         </div>
 
-        <section className="grid grid-cols-5 max-md:grid-cols-1  mt-24 gap-3 max-w-[1400px] mx-auto  items-center justify-center">
-          <div className="col-start-1  ">
-            <h6 className="text-xl font-medium font-poppins text-darkorange-100">
+        <section className="  relative grid sm:grid-cols-2 md:grid-cols-5  max-slg:gap-1 mt-24 gap-3 max-w-[1400px] mx-auto  items-center justify-center">
+          <div className="col-start-1 max-md:col-span-2 s  leading-7 ">
+            <h6 className="text-base font-medium font-poppins text-darkorange-100">
               DD Punch
             </h6>
-            <h3 className="m-0 text-3xl  uppercase font-bold  inline-block ">
+            <h3 className="m-0 text-3xl  max-slg:text-xl uppercase font-bold  inline-block ">
               Where Ideas Meet the Digital Frontier.
             </h3>
           </div>
-          <img
-            className="col-start-1 row-start-2 mt-[-12rem]   rounded-xl  object-cover"
+          <Image
+          width={}
+            className="md:col-start-1 md:row-start-2 xl:mt-[-12rem] max-xl:self-start   rounded-xl  object-cover"
             alt=""
             src="/rectangle-7@2x.png"
           />
 
-          <img
-            className="col-start-2 self-end  rounded-xl  object-cover"
+          <Image
+          width={}
+            className="md:col-start-2 self-end  rounded-xl  object-cover"
             alt=""
             src="/rectangle-13@2x.png"
           />
-          <img
-            className="col-start-2  row-start-2  pb-8 rounded-xl  object-cover"
+          <Image
+          width={}
+            className="md:col-start-2  md:row-start-2  pb-8 rounded-xl  object-cover"
             alt=""
             src="/rectangle-8@2x.png"
           />
-          <img
-            className="col-start-3 row-span-2  rounded-xl  h-full object-cover"
+          <Image
+          width={}
+            className="md:col-start-3 md:row-span-2  rounded-xl  h-full object-cover"
             alt=""
             src="/rectangle-9@2x.png"
           />
-          <img
-            className=" col-start-4 pt-8 row-start-1  rounded-xl  object-cover"
+          <Image
+          width={}
+            className=" md:col-start-4 pt-8 md:row-start-1  rounded-xl  object-cover"
             alt=""
             src="/rectangle-10@2x.png"
           />
-          <img
-            className=" col-start-4 self-start row-start-2  rounded-xl  object-cover"
+          <Image
+          width={}
+            className=" md:col-start-4 self-start md:row-start-2  rounded-xl  object-cover"
             alt=""
             src="/rectangle-12@2x.png"
           />
-          <img
-            className=" col-start-5  row-span-2  rounded-xl  object-cover"
+          <Image
+          width={}
+            className=" md:col-start-5  md:row-span-2  rounded-xl  object-cover"
             alt=""
             src="/rectangle-11@2x.png"
           />

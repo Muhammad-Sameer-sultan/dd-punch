@@ -51,7 +51,7 @@ const config: Config = {
       'xxsm': '375px',
       'xsm': '420px',
       'xmd': '500px',
-      'sm':'640px',
+      'sm':'640px', 
       'md': '768px',
       'slg': '870px',
       'lg': '1024px',
