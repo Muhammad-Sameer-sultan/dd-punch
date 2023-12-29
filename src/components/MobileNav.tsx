@@ -22,15 +22,15 @@ const MobileNav = () => {
   ];
   return (
     <nav
-      className={`slg:hidden px-[72px] pt-[20px] max-xmd:p-[20px] h-[65px] ${navClassName}  bg-gradient z-[150] `}
+      className={`slg:hidden px-[72px] pt-[20px] max-xmd:p-[20px] h-[65px] ${navClassName} bg-gradient   z-[150] `}
     >
       <div className="flex justify-between items-center">
         <div>
           <Image
-            className="w-[150px]"
-            src="footerlogo.svg"
-            width={0}
-            height={0}
+            className=""
+            src="/next.svg"
+            width={100}
+            height={100}
             alt="quick pay logo"
           />
         </div>
@@ -50,7 +50,7 @@ const MobileNav = () => {
         </div>
       </div>
       <div
-        className={`flex flex-col justify-center items-center ${
+        className={`flex flex-col justify-center items-center w-full  ${
           showMenu ? "flex" : "hidden"
         } gap-6`}
       >
@@ -71,19 +71,19 @@ const MobileNav = () => {
           ))}
         </ul>
         <div className="flex gap-6 flex-1 items-center mt-6">
-            <input type="text" className="h-10    outline" />
+            <input type="text" className="h-10 shrink   outline" />
           <Image
             width={28}
             height={28}
-            className="overflow-hidden "
+            className=" "
             alt="search"
             src="/frame.svg"
           />
-          <div className="relative rounded-[50%] bg-darkslategray  w-[60px] h-[60px] z-[0]">
+          <div className="relative rounded-[50%] bg-darkslategray  max-sm:hidden w-[60px] h-[60px] z-[0]">
             <Image
               width={28}
               height={28}
-              className="absolute my-0 mx-[!important] top-[16px] left-[16px]   z-[1]"
+              className="absolute my-0 mx-[!important] top-[16px] left-[16px]    z-[1]"
               alt="login"
               src="/frame1.svg"
             />

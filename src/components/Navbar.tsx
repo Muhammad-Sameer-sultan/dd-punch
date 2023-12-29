@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className='bg-white h-[100px] px-[72px] flex justify-between items-center max-xmd:p-[20px] max-slg:hidden'>
       <div>
-      <Image className='w-full' src={"footerlogo.svg"} width={0} height={100} alt="logo here"/>
+      <Image className='' src={"/next.svg"} width={200} height={100} alt="logo here"/>
       </div>
       <ul className='nav-bar flex gap-8 font-semibold text-[#1D1C1C] text-lg'>
       {navItems.map((item) => (

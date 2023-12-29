@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ButtonMain from "./ButtonMain";
 
 const Hero = () => {
   return (
@@ -32,10 +33,10 @@ const Hero = () => {
           Revolution.
         </h2>
         <div className="mt-8 relative grid place-items-center">
-          <button className="cursor-pointer max-slg:text-[14px] text-[18px] hover:bg-darkorange-300 hover:shadow-md   capitalize font-semibold font-poppins text-white [border:none] max-slg:py-2 max-slg:max-px-[20px] py-4 px-[35px] bg-darkorange-100  rounded-26xl">
+          {/* <button className="cursor-pointer max-slg:text-[14px] text-[18px] hover:bg-darkorange-300 hover:shadow-md   capitalize font-semibold font-poppins text-white [border:none] max-slg:py-2 max-slg:max-px-[20px] py-4 px-[35px] bg-darkorange-100  rounded-26xl">
             get a qoute
-          </button>
-
+          </button> */}
+<ButtonMain Btntext="Get a Quote" path='' />
           <div className=" absolute grid place-items-center max-slg:gap-y-2 gap-y-4 right-0 top-0  text-3xl font-poppins">
             <div className=" relative rounded-[50%] bg-linen  hover:bg-orange-200 hover:cursor-pointer max-xsm:w-[35px] max-xsm:h-[35px] max-slg:w-[60px] max-slg:h-[60px] w-[90px] h-[90px]">
               <Image
@@ -52,55 +53,62 @@ const Hero = () => {
           </div>
         </div>
 
-        <section className="  relative grid sm:grid-cols-2 md:grid-cols-5  max-slg:gap-1 mt-24 gap-3 max-w-[1400px] mx-auto  items-center justify-center">
-          <div className="col-start-1 max-md:col-span-2 s  leading-7 ">
-            <h6 className="text-base font-medium font-poppins text-darkorange-100">
+        <section className="  relative grid max-sm:grid-cols-1 max-slg:grid-cols-2 slg:grid-cols-5   place-items-center  mt-24 gap-5 max-w-[1400px] mx-auto  ">
+          <div className=" col-start-1  max-slg:leading-10 leading-5 slg:self-start">
+            <h6 className="max-slg:text-3xl text-base font-medium font-poppins text-darkorange-100">
               DD Punch
             </h6>
-            <h3 className="m-0 text-3xl  max-slg:text-xl uppercase font-bold  inline-block ">
+            <h3 className="max-slg:text-9xl text-3xl  uppercase font-bold  inline-block ">
               Where Ideas Meet the Digital Frontier.
             </h3>
           </div>
           <Image
-          width={}
-            className="md:col-start-1 md:row-start-2 xl:mt-[-12rem] max-xl:self-start   rounded-xl  object-cover"
+            height={300}
+            width={300}
+            className="slg:col-start-1 slg:row-start-2 max-slg:h-96	max-slg:w-full xl:mt-[-12rem] max-xl:self-start   rounded-xl  object-cover"
             alt=""
             src="/rectangle-7@2x.png"
           />
 
           <Image
-          width={}
-            className="md:col-start-2 self-end  rounded-xl  object-cover"
+            height={300}
+            width={300}
+            className="max-slg:h-96	max-slg:w-full self-end  rounded-xl  object-cover"
             alt=""
             src="/rectangle-13@2x.png"
           />
           <Image
-          width={}
-            className="md:col-start-2  md:row-start-2  pb-8 rounded-xl  object-cover"
+            height={300}
+            width={300}
+            className="max-slg:h-96	max-slg:w-full  slg:row-start-2  rounded-xl  object-cover"
             alt=""
             src="/rectangle-8@2x.png"
           />
           <Image
-          width={}
-            className="md:col-start-3 md:row-span-2  rounded-xl  h-full object-cover"
+            height={300}
+            width={300}
+            className="max-slg:h-96	max-slg:w-full h-full slg:row-span-2 rounded-xl   object-cover"
             alt=""
             src="/rectangle-9@2x.png"
           />
           <Image
-          width={}
-            className=" md:col-start-4 pt-8 md:row-start-1  rounded-xl  object-cover"
+            height={300}
+            width={300}
+            className="max-slg:h-96	max-slg:w-full   rounded-xl  object-cover"
             alt=""
             src="/rectangle-10@2x.png"
           />
           <Image
-          width={}
-            className=" md:col-start-4 self-start md:row-start-2  rounded-xl  object-cover"
+            height={300}
+            width={300}
+            className="max-slg:h-96	max-slg:w-full slg:row-start-2 slg:col-start-4 slg:self-start  rounded-xl  object-cover"
             alt=""
             src="/rectangle-12@2x.png"
           />
           <Image
-          width={}
-            className=" md:col-start-5  md:row-span-2  rounded-xl  object-cover"
+            height={300}
+            width={300}
+            className="max-slg:h-96	max-slg:w-full row-span-2 rounded-xl  object-cover"
             alt=""
             src="/rectangle-11@2x.png"
           />

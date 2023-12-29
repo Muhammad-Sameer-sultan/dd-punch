@@ -45,7 +45,8 @@
 
 @layer components {
   .bg-gradient{
-    @apply bg-gradient-to-r from-[rgba(251,140,36,0.41)] via-[#F8F8F9] to-[#F8F8F9]
+    @apply bg-gradient-to-r from-[rgba(251,140,36,0.25)] via-[#f9f8f8] to-[#f9f9f8]
+    /* @apply bg-red-600 */
   }
 
   .nav-links{
@@ -57,7 +58,7 @@
   }
 
   .nav{
-    background: rgba(255, 255, 255, 0.97);
+    background: white;
     left: 0;
     top: 0;
     right: 0;
