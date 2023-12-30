@@ -33,10 +33,8 @@ const Hero = () => {
           Revolution.
         </h2>
         <div className="mt-8 relative grid place-items-center">
-          {/* <button className="cursor-pointer max-slg:text-[14px] text-[18px] hover:bg-darkorange-300 hover:shadow-md   capitalize font-semibold font-poppins text-white [border:none] max-slg:py-2 max-slg:max-px-[20px] py-4 px-[35px] bg-darkorange-100  rounded-26xl">
-            get a qoute
-          </button> */}
-<ButtonMain Btntext="Get a Quote" path='' />
+        
+<ButtonMain Btntext="Get a Quote" path='/' />
           <div className=" absolute grid place-items-center max-slg:gap-y-2 gap-y-4 right-0 top-0  text-3xl font-poppins">
             <div className=" relative rounded-[50%] bg-linen  hover:bg-orange-200 hover:cursor-pointer max-xsm:w-[35px] max-xsm:h-[35px] max-slg:w-[60px] max-slg:h-[60px] w-[90px] h-[90px]">
               <Image
@@ -65,7 +63,7 @@ const Hero = () => {
           <Image
             height={300}
             width={300}
-            className="slg:col-start-1 slg:row-start-2 max-slg:h-96	max-slg:w-full xl:mt-[-12rem] max-xl:self-start   rounded-xl  object-cover"
+            className="slg:col-start-1 slg:row-start-2 max-slg:h-96	max-slg:w-full xl:mt-[-12rem] max-xl:self-start   rounded-xl  slg:object-cover"
             alt=""
             src="/rectangle-7@2x.png"
           />
@@ -73,47 +71,47 @@ const Hero = () => {
           <Image
             height={300}
             width={300}
-            className="max-slg:h-96	max-slg:w-full self-end  rounded-xl  object-cover"
+            className="max-slg:h-96	max-slg:w-full self-end  rounded-xl  slg:object-cover"
             alt=""
             src="/rectangle-13@2x.png"
           />
           <Image
             height={300}
             width={300}
-            className="max-slg:h-96	max-slg:w-full  slg:row-start-2  rounded-xl  object-cover"
+            className="max-slg:h-96	max-slg:w-full  slg:row-start-2  rounded-xl  slg:object-cover"
             alt=""
             src="/rectangle-8@2x.png"
           />
           <Image
             height={300}
             width={300}
-            className="max-slg:h-96	max-slg:w-full h-full slg:row-span-2 rounded-xl   object-cover"
+            className="max-slg:h-96	max-slg:w-full h-full slg:row-span-2 rounded-xl   slg:object-cover"
             alt=""
             src="/rectangle-9@2x.png"
           />
           <Image
             height={300}
             width={300}
-            className="max-slg:h-96	max-slg:w-full   rounded-xl  object-cover"
+            className="max-slg:h-96	max-slg:w-full   rounded-xl  slg:object-cover"
             alt=""
             src="/rectangle-10@2x.png"
           />
           <Image
             height={300}
             width={300}
-            className="max-slg:h-96	max-slg:w-full slg:row-start-2 slg:col-start-4 slg:self-start  rounded-xl  object-cover"
+            className="max-slg:h-96	max-slg:w-full slg:row-start-2 slg:col-start-4 slg:self-start  rounded-xl  slg:object-cover"
             alt=""
             src="/rectangle-12@2x.png"
           />
           <Image
             height={300}
             width={300}
-            className="max-slg:h-96	max-slg:w-full row-span-2 rounded-xl  object-cover"
+            className="max-slg:h-96	max-slg:w-full row-span-2 rounded-xl  slg:object-cover"
             alt=""
             src="/rectangle-11@2x.png"
           />
         </section>
-        <hr className="bg-black mt-14" />
+        <hr className="bg-black mt-24 max-slg:mt-16" />
       </section>
     </>
   );
