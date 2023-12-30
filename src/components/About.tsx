@@ -6,7 +6,6 @@ const About = () => {
   return (
     // <section id="#" className="font-work-sans">
     <section
-      id="about"
       className="mt-14 relative py-14 grid place-items-center max-sm:px-4 px-20 max-lg:text-[30px]      max-sm:text-center  max-xl:text-[40px] text-[50px] text-black font-work-sans"
     >
       <div className="flex justify-between gap-3 items-center  ">
@@ -62,7 +61,6 @@ const About = () => {
           src="/rectangle-15@2x.png"
         />
       </div>
-      <hr className="bg-black  w-full h-[2px] mt-16 opacity-10" />
     </section>
   );
 };
