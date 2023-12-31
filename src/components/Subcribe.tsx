@@ -25,7 +25,7 @@ const Subcribe = () => {
         subscribe to our newsletter
       </div>
       <form
-        action="https://formsubmit.co/sameersultan1001@gmail.com"
+        action="https://formsubmit.co/34ec25f8df6190de3cbda9bf00223cb7"
         method="POST"
         className="grid grid-cols-3 max-md:grid-cols-2 max-xmd:grid-cols-1 gap-10 justify-center items-center font-poppins  mt-5"
       >
