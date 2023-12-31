@@ -6,9 +6,9 @@ import React from 'react'
 const PortfolioPage = () => {
   return (
     <>
-    {/* <Banner title='portfolio' path='portfolio'  />
-    <Porfolio bgshow={false} />
-    <Subcribe /> */}
+    <Banner title={"portfolio"} path={'portfolio'} />
+   <Porfolio />
+   <Subcribe />
     
     </>
   )

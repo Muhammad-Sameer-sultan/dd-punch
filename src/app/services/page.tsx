@@ -8,11 +8,11 @@ import React from 'react'
 const ServicesPage = () => {
   return (
     <>
-{/* <Banner title='services' path='services' />
-    <Services showbg={false} />
-    <Pricing />
-    <Porfolio />
-    <Subcribe /> */}
+<Banner title='services' path='services' />
+<Services showbg={false} displayTitleBtn={false}/>
+<Pricing showbg={true} />
+<Subcribe /> 
+
     </>
   )
 }

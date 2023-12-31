@@ -2,11 +2,14 @@ import React from "react";
 import ButtonMain from "./ButtonMain";
 import Image from "next/image";
 
-const Pricing = () => {
+const Pricing = ({showbg=false}:any) => {
   return (
     <section
-      id="about"
-      className="relative py-14 grid place-items-center max-sm:px-4 px-20 max-lg:text-[30px]        max-xl:text-[40px] text-[50px] text-black font-work-sans"
+      className={
+
+        `
+        ${showbg?"bg-linen":""}
+      relative py-14 grid place-items-center max-sm:px-4 px-20 max-lg:text-[30px]        max-xl:text-[40px] text-[50px] text-black font-work-sans`}
     >
 
       <div className="flex justify-between max-slg:flex-col items-center max-slg:text-center">
@@ -31,7 +34,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="grid max-lg:grid-cols-1 grid-cols-2 gap-5 max-xmd:text-center font-work-sans mt-10  ">
+      <div className="grid max-lg:grid-cols-1 grid-cols-2 gap-5 max-xmd:text-center font-work-sans mt-10  max-sm:p-5">
         <div className=" ">
           <h3 className=" mb-5 text-13xl uppercase font-extrabold ">
             EMBROIDERY DIGITIZING

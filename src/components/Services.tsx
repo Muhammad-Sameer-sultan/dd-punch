@@ -43,10 +43,9 @@ const Services = ({ showbg=false, displayTitleBtn = true }: any) => {
       }   relative py-14 grid place-items-center max-sm:px-4 px-20 max-lg:text-[30px]        max-xl:text-[40px] text-[50px] text-black font-work-sans`}
     >
       <div className="flex justify-between max-slg:flex-col max-slg:items-center items-start max-slg:text-center">
-        <div className="">
-          <h6 className="mb-3 text-darkorange-200 text-base uppercase font-semibold">
-            our services
-          </h6>
+        <div className="max-slg:w-full w-1/2 ">
+        <h6 className="text-darkorange-200 text-xl font-poppins uppercase font-semibold">our services </h6>
+
           <h2 className="m-0 text-[48px] max-sm:text-[30px] max-lg:text-[38px] leading-[45px] uppercase font-black font-work-sans ">
             Embrace the Digital Revolution.
           </h2>

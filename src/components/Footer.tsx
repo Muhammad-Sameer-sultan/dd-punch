@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -16,7 +17,10 @@ const navItems = [
 ];
 const Footer = () => {
   return (
-    <footer className="bg-darkslategray px-[38px] pt-10 pb-5 text-white font-poppins">
+    <footer className="relative bg-darkslategray px-[38px] pt-10 pb-5 text-white font-poppins">
+      <Image src="./star-6.svg" width={80} height={80} alt={"star"} 
+      className="absolute top-[-2.5rem] left-0"
+      />
       <div className="grid grid-cols-4 max-lg:gri items-center justify-center gap-[16px] ">
         <div className="p-5 max-lg:col-span-4 max-lg:text-center">
           <h4 className="uppercase   text-[36px] font-work-sans">Logo here</h4>

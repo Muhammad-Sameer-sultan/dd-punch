@@ -11,7 +11,7 @@ const Navbar = () => {
     { id: '/', label: 'Home' },
     { id: '/services', label: 'services' },
     { id: '/pricing', label: 'pricing' },
-    { id: '/porfolio', label: 'porfolio' },
+    { id: '/portfolio', label: 'porfolio' },
     { id: '/about-us', label: 'about us' },
   ];
   const handleNavClick = (id:string) => {

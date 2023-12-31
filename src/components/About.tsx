@@ -4,13 +4,12 @@ import ButtonMain from "./ButtonMain";
 
 const About = () => {
   return (
-    // <section id="#" className="font-work-sans">
     <section
       className="mt-14 relative py-14 grid place-items-center max-sm:px-4 px-20 max-lg:text-[30px]      max-sm:text-center  max-xl:text-[40px] text-[50px] text-black font-work-sans"
     >
       <div className="flex justify-between gap-3 items-center  ">
         <div className="slg:w-2/4">
-          <h6 className="text-darkorange-200 text-xl">About us </h6>
+        <h6 className="text-darkorange-200 text-xl font-poppins uppercase">About us </h6>
           <h2 className=" leading-[60px] max-lg:leading-10 uppercase font-black mb-5">
             Crafting Your Digital Future, Seamlessly.
           </h2>
@@ -19,8 +18,8 @@ const About = () => {
         <Image width={80} height={80} className="" alt="" src="/star-11.svg" />
       </div>
       <div className=" grid lg:grid-cols-[auto,1fr,auto] sm:grid-cols-4 grid-cols-1  gap-5 items-center mt-20 ">
-        <div className="max-lg:col-span-4 max-sm:col-span-1 flex justify-center  ">
-          <div className="relative ">
+        <div className="max-lg:col-span-4 max-sm:col-span-1 flex items-center justify-center ">
+          <div className="relative  ">
             <Image
               width={100}
               height={100}
@@ -31,7 +30,7 @@ const About = () => {
             <Image
               width={400}
               height={500}
-              className=" rounded-xl  z-10 max-xslg:w-72 max-sm:w-full"
+              className=" rounded-xl  z-10 max-xslg:w-72  "
               alt=""
               src="/rectangle-14@2x.png"
             />

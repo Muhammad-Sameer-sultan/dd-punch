@@ -9,6 +9,7 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: #ff4d30 #ffffff;
+  scroll-behavior: smooth;
   
 }
 
@@ -68,4 +69,8 @@
   .new_height{
     height: 480px;
   }
+}
+
+.scroll-container::-webkit-scrollbar{
+  display: none;
 }
