@@ -15,15 +15,15 @@ const About = () => {
           </h2>
           <ButtonMain Btntext="Read more" path="about" />
         </div>
-        <Image width={80} height={80} className="" alt="" src="/star-11.svg" />
+        <Image width={80} height={80} className="max-xxsm:hidden" alt="" src="/star-11.svg" />
       </div>
       <div className=" grid lg:grid-cols-[auto,1fr,auto] sm:grid-cols-4 grid-cols-1  gap-5 items-center mt-20 ">
-        <div className="max-lg:col-span-4 max-sm:col-span-1 flex items-center justify-center ">
+        <div className="max-lg:col-span-4 max-sm:col-span-1 flex items-center justify-center p-3 ">
           <div className="relative  ">
             <Image
               width={100}
               height={100}
-              className=" absolute left-[-60px] top-[-60px] z-[-1] max-slg:mt-5 "
+              className=" absolute left-[-60px] top-[-60px] z-[-1] max-slg:mt-5 max-xxsm:hidden"
               alt=""
               src="/star-5.svg"
             />

@@ -1,11 +1,9 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import {useState} from 'react'
-
+import { usePathname } from 'next/navigation';
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState ('/')
- 
+  const currentRoute = usePathname();
 
   const navItems = [
     { id: '/', label: 'Home' },
@@ -15,9 +13,7 @@ const Navbar = () => {
     { id: '/about-us', label: 'about us' },
     { id: '/contact-us', label: 'contact us' },
   ];
-  const handleNavClick = (id:string) => {
-    setActiveNav(id);
-  };
+ 
   return (
     <nav className='bg-white h-[100px] px-[72px] flex justify-between items-center max-xmd:p-[20px] max-slg:hidden'>
       <div>
@@ -26,7 +22,8 @@ const Navbar = () => {
       <ul className='nav-bar flex gap-8 font-semibold text-[#1D1C1C] text-lg'>
       {navItems.map((item) => (
           <li key={item.id}>
-            <Link href={item.id} onClick={() => handleNavClick(item.id)} className={activeNav === item.id ? 'nav-active' : 'nav-links '}>
+            <Link href={item.id} 
+             className={currentRoute === item.id ? 'nav-active' : 'nav-links '}>
               {item.label}
             </Link>
           </li>
