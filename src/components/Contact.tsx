@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { FaCircleChevronLeft, FaCircleChevronRight } from "react-icons/fa6";
-import ButtonMain from "./ButtonMain";
 
 const Contact = () => {
   return (
@@ -32,9 +30,7 @@ const Contact = () => {
           </h5>
         </div>
       </div>
-      <form  className="formp-6 my-10 relative w-full">
-        
-       
+      <form className="formp-6 my-10 relative w-full">
         <div className="grid grid-cols-2   max-sm:grid-cols-1 gap-5 mt-3">
           <input
             type="text"
@@ -50,7 +46,7 @@ const Contact = () => {
             placeholder="Your Last Name"
             className="border bg-gray-100 rounded-lg  p-3 italic focus:outline-darkorange-200 "
           />
-            <input
+          <input
             type="email"
             name="email"
             id="email"
@@ -64,18 +60,16 @@ const Contact = () => {
             placeholder="Phone Number"
             className="border bg-gray-100 rounded-lg  p-3 italic focus:outline-darkorange-200 "
           />
-   <textarea
-          name=""
-          id=""
-          cols={10}
-          rows={10}
-          placeholder="Type Your Message Here ....."
-          className="border bg-gray-100 rounded-lg  p-3 italic focus:outline-darkorange-200 mt-3 sm:col-span-2"
-        ></textarea>
-
+          <textarea
+            name=""
+            id=""
+            cols={10}
+            rows={10}
+            placeholder="Type Your Message Here ....."
+            className="border bg-gray-100 rounded-lg  p-3 italic focus:outline-darkorange-200 mt-3 sm:col-span-2"
+          ></textarea>
         </div>
-       
-      
+
         <input
           type="submit"
           value="Submit Now"

@@ -13,6 +13,7 @@ const Navbar = () => {
     { id: '/pricing', label: 'pricing' },
     { id: '/portfolio', label: 'porfolio' },
     { id: '/about-us', label: 'about us' },
+    { id: '/contact-us', label: 'contact us' },
   ];
   const handleNavClick = (id:string) => {
     setActiveNav(id);

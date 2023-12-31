@@ -14,11 +14,12 @@ const MobileNav = () => {
     setNavClassName(showMenu ? "nav" : "nav new_height fixed");
   };
   const navItems = [
-    { id: "#", label: "Home" },
-    { id: "#services", label: "services" },
-    { id: "#pricing", label: "pricing" },
-    { id: "#porfolio", label: "porfolio" },
-    { id: "#about-us", label: "about us" },
+    { id: "/", label: "Home" },
+    { id: "/services", label: "services" },
+    { id: "/pricing", label: "pricing" },
+    { id: "/porfolio", label: "porfolio" },
+    { id: "/about-us", label: "about us" },
+    { id: "/contact-us", label: "contact us" },
   ];
   return (
     <nav
