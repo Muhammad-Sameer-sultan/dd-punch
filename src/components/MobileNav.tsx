@@ -17,7 +17,7 @@ const MobileNav = () => {
     { id: "/", label: "Home" },
     { id: "/services", label: "services" },
     { id: "/pricing", label: "pricing" },
-    { id: "/porfolio", label: "porfolio" },
+    { id: "/portfolio", label: "porfolio" },
     { id: "/about-us", label: "about us" },
     { id: "/contact-us", label: "contact us" },
   ];
@@ -52,7 +52,7 @@ const MobileNav = () => {
       </div>
       <div
         className={`flex flex-col justify-center items-center w-full  ${
-          showMenu ? "flex" : "hidden"
+          showMenu ? "flex " : "hidden"
         } gap-6`}
       >
         <ul className="flex gap-6 flex-col justify-center items-center text-[#1D1C1C] text-lg font-semibold">

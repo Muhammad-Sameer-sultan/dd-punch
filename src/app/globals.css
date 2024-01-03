@@ -58,17 +58,18 @@
     @apply relative font-poppins capitalize text-darkorange-200  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-darkorange-200 after:w-[24px] after:scale-x-100 after:left-[30%]
   }
 
-  .nav{
-    background: white;
-    left: 0;
-    top: 0;
-    right: 0;
-    transition: all 400ms ease;
-    width: 100%;
-  }
-  .new_height{
-    height: 480px;
-  }
+
+}
+.nav{
+  background: white;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 400ms ease;
+  width: 100%;
+}
+.new_height{
+  height: 480px;
 }
 
 .scroll-container::-webkit-scrollbar{
